@@ -28,11 +28,11 @@ Fine-tuned three ImageNet-pretrained models using a two-stage strategy: freeze t
 
 | Model | Test Accuracy | Params | Size |
 |-------|:---:|---:|---:|
-| ResNet50 | 93.72% | 24.1M | ~92 MB |
-| MobileNetV2 | — | 3.4M | ~14 MB |
-| EfficientNetB0 | — | 5.3M | ~20 MB |
+| ResNet50 | 93.87% | 24.1M | 92.0 MB |
+| MobileNetV2 | 91.07% | 2.6M | 9.9 MB |
+| EfficientNetB0 | 90.43% | 4.4M | 16.7 MB |
 
-All transfer models outperformed the best custom CNN (88.97%). Even the lightweight MobileNetV2 at 3.4M parameters beat everything from Phase 1.
+All three transfer models outperformed the best custom CNN (88.97%). MobileNetV2 hit 91.07% with only 2.6M parameters — best efficiency of the group. ResNet50 achieved the highest accuracy at 93.87% but at 24M parameters and 92 MB.
 
 ---
 
