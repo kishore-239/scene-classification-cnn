@@ -1,0 +1,18 @@
+# Credentials — never push this
+kaggle.json
+
+# Model files — too large for GitHub (stored on Google Drive)
+*.h5
+*.keras
+
+# Jupyter auto-generated cache
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
