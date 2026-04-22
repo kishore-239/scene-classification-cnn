@@ -1,5 +1,7 @@
 # Scene Classification — CNN vs Transfer Learning
 
+**Live Demo:** [Try it on Hugging Face Spaces](https://huggingface.co/spaces/kishore-9/scene-classification-cnn)
+
 Comparing custom-built CNNs against pretrained transfer learning models on an outdoor scene classification task.
 
 **Dataset:** Intel Image Classification (Kaggle `puneet6060/intel-image-classification`)  
